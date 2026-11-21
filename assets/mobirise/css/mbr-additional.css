@@ -3068,9 +3068,12 @@ a {
 .cid-srsYB1y6DO .card-wrapper {
   background: #191919;
   padding: 3rem;
+  border: 1px solid #2a2a2a;
+  height: 100%;
+  transition: border-color 0.15s ease;
 }
 .cid-srsYB1y6DO .card-wrapper:hover {
-  background: linear-gradient(to left, #ffcc00, #ffcc00);
+  border-color: #ffcc00;
 }
 .cid-srsYB1y6DO .text-wrap {
   display: flex;
@@ -3103,19 +3106,11 @@ a {
 }
 .cid-srsYB1y6DO .card {
   margin-bottom: 2rem;
-  transition: all 0.3s;
-}
-.cid-srsYB1y6DO .card:hover {
-  transform: translateY(-10px);
 }
 .cid-srsYB1y6DO .card:hover .link-icon {
   color: #ffffff;
   -webkit-background-clip: transparent;
   -webkit-text-fill-color: unset;
-}
-.cid-srsYB1y6DO .card:hover .card-title,
-.cid-srsYB1y6DO .card:hover .mbr-subtitle {
-  color: #ffffff !important;
 }
 @media (min-width: 1600px) {
   .cid-srsYB1y6DO .card {
